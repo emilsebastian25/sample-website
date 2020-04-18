@@ -88,8 +88,43 @@ input[type='text'] {
   opacity: 0;
 }
 
+.single-meal {
+  margin: 10px auto;
+  width: 70%;
+}
+
+.single-meal img {
+  border: 2px solid white;
+  width: 300px;
+}
+
+.single-meal-info {
+  border: 2px solid #97632e;
+  border-style: dotted;
+  margin: 10px auto;
+  width: 70%;
+}
+
+.main p {
+  line-height: 1.2;
+}
+
+.main ul {
+  list-style-type: none;
+}
+
+.main li {
+  display: inline-block;
+  background-color: whitesmoke;
+  color: #2d2013;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 2px;
+  font-weight: 600;
+}
+
 .meal:hover .meal-info {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 @media (max-width: 800px) {
